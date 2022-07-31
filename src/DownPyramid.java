@@ -8,9 +8,11 @@ public class DownPyramid {
 
         int i,j,k;
         for (i = 1; i<=n;i++){
+            /*print spaces*/
             for (j=1; j<= i-1; j++){
                 System.out.print(" ");
             }
+            /*print stars*/
             for (k=2*n-i;k>=n;k--){
                 System.out.print("* ");
             }
