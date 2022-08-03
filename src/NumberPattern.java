@@ -7,7 +7,10 @@ public class NumberPattern {
         int n = sc.nextInt();
 
         int i,j;
+
+        // print rows
         for (i=1;i<=n;i++){
+            /*increase j up to i and print*/
             for (j=1;j<=i;j++){
                 System.out.print(j);
             }
